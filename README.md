@@ -5,6 +5,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+<a href="https://lunchly.com/"><img src="https://lunchly.com/cdn/shop/files/Lunchly_Logo_Slanted_Final_1600x.png?v=1719237961" alt="Lunchly"></a>
 </p>
 
 ## Aku Sigma

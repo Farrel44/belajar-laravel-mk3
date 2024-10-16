@@ -9,6 +9,7 @@
 
 ## Aku Sigma
 
+Sebenarnya aku itu sigma level 100 mewing banget, makan lunchly dengan meminum minuman prime dan mendengarkan talk tuah sambil menyanyikan lagu "Thick of it" dari KSI
 
 ## About Laravel
 

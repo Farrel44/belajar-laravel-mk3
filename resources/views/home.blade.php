@@ -3,48 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="assets\css\home.css">
+    <title>Discover the beauty around the world</title>
+    @vite('resources/css/app.css')
 </head>
-<body>
-    <div class="container-5">
-        <div class="content">
-          <div class="discover-the-beauty-around-the-world">
-            Discover the beauty around the world
-          </div>
-          <div class="lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-faucibus-in-libero-risus-semper-habitant-arcu-eget-et-integer-facilisi-eget-diam">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus in libero risus semper habitant arcu eget. Et integer facilisi eget diam.
-          </div>
-          <div class="primary-button">
-            <span class="contact-us">Explore</span>
-          </div>
+<body class="bg-white flex flex-col items-center justify-center py-16">
+    <div class="text-center mb-16">
+        <h1 class="text-5xl font-extrabold text-gray-900 mb-2">Discover the beauty around the world</h1>
+        <p class="text-lg text-gray-700 mb-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus in libero risus semper habitant arcu eget. Et integer facilisi eget diam.</p>
+        <button class="bg-gray-900 text-white text-lg py-3 px-6 rounded-lg hover:bg-gray-800 transition">Explore</button>
+    </div>
+
+    <div class="grid grid-cols-2 gap-4 lg:grid-cols-4">
+        <div class="w-80 h-72 rounded-lg overflow-hidden">
+          <img src="/assets/images/1.jpg" alt="image1" class="object-cover w-full h-full">
         </div>
-        <div class="image-list">
-          <div class="frame-14147">
-            <div class="container">
-              <div class="rectangle-3"></div>
-            </div>
-            <div class="container-1">
-              <div class="rectangle-4"></div>
-            </div>
-            <div class="container-2">
-              <div class="rectangle-41"></div>
-            </div>
-            <div class="container-3">
-              <div class="rectangle-31"></div>
-            </div>
-          </div>
-          <div class="frame-14148">
-            <div class="container-4">
-              <div class="rectangle-32"></div>
-            </div>
-            <div class="container-6">
-              <div class="rectangle-42"></div>
-            </div>
-            <div class="container-7"></div>
-            <div class="container-8"></div>
-          </div>
+        <div class="w-80 h-72 rounded-lg overflow-hidden">
+          <img src="/assets/images/2.jpg" alt="image1" class="object-cover w-full h-full">
         </div>
-      </div>
+        <div class="w-80 h-72 rounded-lg overflow-hidden">
+          <img src="/assets/images/3.jpg" alt="image1" class="object-cover w-full h-full">
+        </div>
+        <div class="w-80 h-72 rounded-lg overflow-hidden">
+          <img src="/assets/images/4.jpg" alt="image1" class="object-cover w-full h-full">
+        </div>
+        <div class="w-80 h-72 rounded-lg overflow-hidden">
+          <img src="/assets/images/5.jpg" alt="image1" class="object-cover w-full h-full">
+        </div>
+        <div class="w-80 h-72 rounded-lg overflow-hidden">
+          <img src="/assets/images/6.jpg" alt="image1" class="object-cover w-full h-full">
+        </div>
+        <div class="w-80 h-72 rounded-lg overflow-hidden">
+          <img src="/assets/images/7.jpg" alt="image1" class="object-cover w-full h-full">
+        </div>
+        <div class="w-80 h-72 rounded-lg overflow-hidden">
+          <img src="/assets/images/8.jpg" alt="image1" class="object-cover w-full h-full">
+        </div>
+    </div>
 </body>
 </html>

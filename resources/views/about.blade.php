@@ -7,9 +7,9 @@
 </head>
 <body>
     <div class="place-content-center items-center">
-        <h1 class="text-6xl font-bold bg-black text-center text-white pb-10 pt-10">
-          About
-        </h1>
+      <h1 class="text-6xl font-bold bg-black text-center text-white pb-10 pt-10">
+        About
+      </h1>
     </div>
 </body>
 </html>

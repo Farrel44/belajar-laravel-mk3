@@ -12,7 +12,7 @@
     <div class="text-center mb-16">
         <h1 class="text-5xl font-extrabold text-gray-900 mb-2">Discover the beauty around the world</h1>
         <p class="text-lg text-gray-700 mb-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus in libero risus semper habitant arcu eget. Et integer facilisi eget diam.</p>
-        <a href="{{route ('about') }}">
+        <a href="{{route ('index') }}">
           <button class="bg-gray-900 text-white text-lg py-3 px-6 rounded-lg hover:bg-gray-800 transition">Explore</button>
         </a>
     </div>

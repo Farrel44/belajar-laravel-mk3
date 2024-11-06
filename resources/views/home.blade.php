@@ -8,7 +8,7 @@
     <title>Discover the beauty around the world</title>
     @vite('resources/css/app.css')
 </head>
-<body class="bg-white flex flex-col items-center justify-center py-16">
+<body class="bg-white flex flex-col items-center justify-center py-16 ">
     <div class="text-center mb-16">
         <h1 class="text-5xl font-extrabold text-gray-900 mb-2">Discover the beauty around the world</h1>
         <p class="text-lg text-gray-700 mb-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus in libero risus semper habitant arcu eget. Et integer facilisi eget diam.</p>
@@ -62,7 +62,7 @@
     <h1 class="text-5xl font-extrabold text-gray-900 mb-2">Learn more down below</h1>
     <p class="text-lg text-gray-700 mb-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus in libero risus semper habitant arcu eget. Et integer facilisi eget diam.</p>
     <a href="{{route ('about') }}">
-      <button class="bg-gray-900 text-white text-lg py-3 px-6 rounded-lg hover:bg-gray-800 transition">Explore</button>
+      <button class="bg-gray-900 text-white text-lg py-3 px-6 rounded-lg hover:bg-gray-800 transition">About me</button>
     </a>
    </div>
 </body>

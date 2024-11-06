@@ -8,6 +8,7 @@
     @vite('resources/css/app.css')
 </head>
 <body class="bg-gray-100 flex justify-center items-center h-screen">
+    
     <form id="loginForm" class="bg-white p-8 rounded-lg shadow-md w-80">
         <h1 class="text-3xl font-bold pb-4 text-center">Login</h1>
         

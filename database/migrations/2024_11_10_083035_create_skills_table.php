@@ -17,7 +17,6 @@ return new class extends Migration
             $table->enum('proficiency', ['Beginner', 'Intermediate', 'Advanced', 'Expert'])->default('Beginner');
             $table->string('description');
             $table->timestamps();
-            $table->foreignId('user_id')->constrained('users')->cascadeOnDelete();
         });
     }
 

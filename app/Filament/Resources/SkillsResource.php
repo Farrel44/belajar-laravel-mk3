@@ -23,7 +23,15 @@ class SkillsResource extends Resource
     {
         return $form
             ->schema([
-                //
+                Forms\Components\TextInput::make('skill_name'),
+                Forms\Components\Select::make('proficiency')
+                ->options([
+                    'Beginner' => 'Beginner',
+                    'Intermediate' => 'Intermediate',
+                    'Advanced' => 'Advanced',
+                    'Expert' => 'Expert',
+                ]),
+                Forms\Components\TextInput::make('description'),
             ]);
     }
 
@@ -31,7 +39,9 @@ class SkillsResource extends Resource
     {
         return $table
             ->columns([
-                //
+                Tables\Columns\TextColumn::make('skill_name'),
+                Tables\Columns\TextColumn::make('proficiency'),
+                Tables\Columns\TextColumn::make('description'),
             ])
             ->filters([
                 //

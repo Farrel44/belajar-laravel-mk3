@@ -14,10 +14,9 @@ return new class extends Migration
         Schema::create('hobbies', function (Blueprint $table) {
             $table->id();
             $table->string('hobbie_name');
-            $table->text('description')->nullable();
+            $table->string('description');
             $table->date('started_date')->nullable();
             $table->timestamps();
-            $table->foreignId('user_id')->constrained('users')->cascadeOnDelete();
         });
     }
 

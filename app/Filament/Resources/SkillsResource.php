@@ -39,7 +39,7 @@ class SkillsResource extends Resource
     {
         return $table
             ->columns([
-                Tables\Columns\TextColumn::make('skill_name'),
+                Tables\Columns\TextColumn::make('skill_name')->searchable(),
                 Tables\Columns\TextColumn::make('proficiency'),
                 Tables\Columns\TextColumn::make('description'),
             ])

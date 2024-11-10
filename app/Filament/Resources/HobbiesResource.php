@@ -34,7 +34,7 @@ class HobbiesResource extends Resource
     {
         return $table
             ->columns([
-                Tables\Columns\TextColumn::make('hobbie_name'),
+                Tables\Columns\TextColumn::make('hobbie_name')->searchable(),
                 Tables\Columns\TextColumn::make('description'),
                 Tables\Columns\TextColumn::make('started_date'),
             ])
